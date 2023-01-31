@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    margin: 1rem 3rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 1rem 3rem;
+}
