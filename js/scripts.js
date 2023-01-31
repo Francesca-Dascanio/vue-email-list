@@ -8,7 +8,9 @@ createApp ({
         }
     },
     methods: {
-
+        checkEmails: function () {
+            console.log(this.emails);
+        }
     },
     mounted () {
 
