@@ -16,8 +16,8 @@
             <h1>
                 La mia lista Email:
             </h1>
-            <ul>
-                <li v-for="(singleEmail, index) in emails" v-if="emails.length == 10">
+            <ul v-if="emails.length == 10">
+                <li v-for="(singleEmail, index) in emails">
                    {{ (index + 1) }}. {{ singleEmail }}
                 </li>
             </ul>
